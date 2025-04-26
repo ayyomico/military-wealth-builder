@@ -114,7 +114,6 @@ if st.session_state.page == 'confirmation':
     st.markdown("Congratulations, Warrior! You've created your plan to destroy debt and build wealth.")
     st.write(f"**Debt Focus:** {st.session_state.debts[0]['Debt Name']}" if st.session_state.debts else "No debts entered.")
     st.write(f"Estimated months to debt-free: ~12 months (simple est.)")
-    st.success("Discipline equals freedom. 
-- Jocko Willink")
+    st.success("Discipline equals freedom.\n- Jocko Willink")
     if st.button("Return Home"):
         st.session_state.page = 'home'

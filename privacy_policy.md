@@ -1,3 +1,1 @@
-# Privacy Policy
-
-No PII collected. Calculations run locally on your device. No data stored on servers.
+No PII collected. All calculations are performed locally in your browser session.
